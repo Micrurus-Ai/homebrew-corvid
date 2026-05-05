@@ -11,18 +11,18 @@ class Corvid < Formula
   on_macos do
     on_arm do
       url "https://github.com/Micrurus-Ai/Corvid-lang/releases/download/v#{version}/corvid-aarch64-apple-darwin.tar.gz"
-      sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+      sha256 "c0cfe191c89cb23dac87b8ee08a8ffcb51cc47c556a215844de851f4199dfdf4"
     end
     on_intel do
       url "https://github.com/Micrurus-Ai/Corvid-lang/releases/download/v#{version}/corvid-x86_64-apple-darwin.tar.gz"
-      sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+      sha256 "c111481ea2e33291b83db5254ef1583c1dd525a5c007a1258b3cf67bf49061c7"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/Micrurus-Ai/Corvid-lang/releases/download/v#{version}/corvid-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+      sha256 "d01733d2215eca9d2439c97a21669e66f299180466164815d7055070df82571b"
     end
   end
 
